@@ -12,6 +12,7 @@ public class AsyncService {
     public static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
     @Async
+    // メッセージ送信
     public void sendMsg(String message){
         // todo :模拟耗时5秒
         try {
